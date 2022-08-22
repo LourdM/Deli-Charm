@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu{
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+}
+
+.titulo{
+font-family: 'Dancing Script', cursive;
+font-size: 50px;
+text-align: center;
+}
+
+.menu ul li{
+    display: inline;
+    margin-right: 100px;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+
+.caja{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(213, 236, 189);
+    margin: 20px;
+    margin-left: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.caja_2{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(213, 236, 189);
+    margin: 20px;
+    margin-left: 700px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.caja h1{
+    text-align: center;
+}
+
+.caja h2{
+    text-align: center;
+    
+}
+
+header{
+    background-image: url("./../img/pexels-photo-306070.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat  ;
+    background-attachment:fixed ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    min-height: 90px;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right: 200px;
+}
+body{
+    background-color: rgb(236, 201, 207);
+    background-attachment: fixed;
+}
+ 
+.foto{
+    Justify-content:flex-end;
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    bottom: 10px;
+    margin-top: 170px;
+}
+
+.foto_2{
+    Justify-content:flex-end;
+    position: absolute;
+    right: 900px;
+    top: 10px;
+    bottom: 10px;
+    margin-top: 1400px;
+}
+
+.gif{    
+    background-image: url("./../Img/gif.webp");
+    background-size: cover;
+    background-repeat:no-repeat  ;
+    background-attachment:fixed ;
+    height: 600px;
+}
+
+h4{
+    display: inline-block;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+h4::after,h4::before{
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 3px;
+    background-color: black;
+    top: 0.6em;
+}
+h4::before{
+    left: -410px;
+}
+h4::after{
+    right:-410px;
+}
+footer a{
+    display: contents;
+    justify-content: center;
+}
+
+.logo_2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: rgb(245, 167, 180);
+    text-align: center;
+}
+
+.titulo_2{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tarjeta{
+    background-color: rgb(236, 201, 207);
+}
+
+.tarjeta{
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+.tarjetas{
+    background-color: rgb(213, 236, 189);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.tarjeta_texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+.tarjeta_titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.tarjeta_imagen{
+    width: 100%;
+}
+
+.boton{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;    
+    margin: 10px 100px 10px 100px;
+    text-decoration: none;
+}
+
+.index{
+    background-image: url("./../Img/estrella.gif");
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-left: 80px;
+    transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.titulo_3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.circulo{
+    margin-top: 5px;
+    margin-right: 100px;
+    text-align: center;
+    
+}
+
+.menu_side{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: black;
+    width: 0px;
+    height: 100%;
+    background-color: beige;
+    position: fixed;
+    top:0;
+    left: 0;
+    color: black;
+    z-index: 300;
+    overflow: hidden;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.menu_side div a{
+    text-decoration: none;
+    color: black;
+}
+
+.nombre{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nombre i{
+    margin-right: 20px;
+}
+
+.inicio{
+    top: 0;
+    z-index: 200;
+    background: none;
+    margin-right: 1500px;
+}
+.icon_menu{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    transform: translateX(10px);
+}
+
+.icon_menu i{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.menu_n{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.opciones{
+    padding: 20px 30px;
+    position: absolute;
+    top: 80px;
+}
+
+.opciones a{
+    cursor: default;
+    display: block;
+    position: relative;
+    transition: color 300ms;
+    cursor: pointer;
+}
+
+.opciones a:hover{
+    color:  rgb(245, 167, 180);
+}
+
+.body_move{
+    margin-left: 250px;
+}
+
+.menu_side_move{
+    width: 250px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.right{
+    background-color: rgb(213, 236, 189);
+}
+
+.redes{
+    margin: 70px;
+    bottom: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .circulo{
+        margin-top: 0px;
+
+    }
+    .icon_menu{
+        margin-left: 50px;
+    }
+    .titulo_3{
+        margin-top: 0px;
+        bottom: 5px;
+    }
+    header{
+        flex-direction: column;
+        
+    }
+    .logo{
+        align-items: center;
+        margin-left: 180px;
+    }
+    .menu ul li{
+        font-size: 22px;
+    }
+    .caja{
+        margin-top: 60px;
+        margin-left: 135px;
+    }
+    .foto{
+        left: 190px;
+        margin-top: 450px;
+    }
+    .gif{
+        margin-top: 500px;
+    }
+    .caja_2{
+        margin-left: 135px;
+        margin-top: 55px;
+    }
+    .foto_2{
+        right: 180px;
+        margin-top: 1800px;
+    }
+    footer{
+        margin-top: 500px;
+    }
+    .boton{
+        margin: 20px 50px 20px 20px;
+        font-weight: 200;
+        text-align: center ;
+                
+    }
+      
+}
+
+@media screen and (max-width: 480px){
+
+    .index{
+        background-size: 200%;
+    }
+    .circulo{
+        margin-top: 0px;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .titulo_3{
+        margin-left: 126px;
+    }    
+    header{
+        flex-direction: column;
+    }
+    .menu ul li{
+        font-size: 30px;
+    }
+    .caja{
+        margin-top: 60px;
+        margin-left: 18px;
+        width: 450px;
+        height: 250px;
+    }
+    .foto{
+        left: 45px;
+        margin-top: 520px;
+    }
+    .caja_2{
+        width: 450px;
+        height: 250px;
+        margin-left: 18px;
+        margin-top: 55px;
+    }
+    .foto_2{
+        right: 34px;
+        margin-top: 1920px;
+    }
+    
+    .tarjeta{
+        display:inline;
+    }
+    .tarjetas{
+        width: 80%;
+        margin-left: 55px;
+        margin-bottom: 50px;
+        flex: 1;
+    }
+}
