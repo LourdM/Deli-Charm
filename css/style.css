@@ -105,7 +105,7 @@ body{
 }
 
 .gif{    
-    background-image: url("./../Img/gif.webp");
+    background-image: url("./../img/gif.webp");
     background-size: cover;
     background-repeat:no-repeat  ;
     background-attachment:fixed ;
@@ -208,7 +208,7 @@ footer{
 }
 
 .index{
-    background-image: url("./../Img/estrella.gif");
+    background-image: url("./../img/estrella.gif");
     background-size: 100%;
     background-attachment: fixed;
     margin-left: 80px;
